@@ -10,6 +10,7 @@ public class HomeController {
 	@ResponseBody
 	@RequestMapping("/index")
 	public String sayHello() {
+		System.out.print("Hello World Again");
 		
 		return "Hello Docker and AWS with Jenkins , Github";	}
 
