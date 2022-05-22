@@ -11,6 +11,7 @@ public class HomeController {
 	@RequestMapping("/index")
 	public String sayHello() {
 		System.out.print("Hello World Again");
+		System.out.print("Hello World Again2");
 		
 		return "Hello Docker and AWS with Jenkins , Github";	}
 
