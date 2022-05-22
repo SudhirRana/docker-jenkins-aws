@@ -11,6 +11,6 @@ public class HomeController {
 	@RequestMapping("/index")
 	public String sayHello() {
 		
-		return "Hello Docker and AWS";	}
+		return "Hello Docker and AWS with Jenkins , Github";	}
 
 }
